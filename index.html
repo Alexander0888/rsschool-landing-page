@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__container">
+        <a class="header__logo" href="index.html">
+          <img src="assets/images/logo.png" alt="Coffee House"
+        /></a>
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#favorites">Favorite coffee</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#about">About</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#mobile-app">Mobile app</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#contact-us">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="header__actions">
+          <button
+            class="header__theme-toggle theme-toggle"
+            type="button"
+            aria-label="Switch theme"
+          >
+            <span class="theme-toggle__option theme-toggle__option--active"
+              ><img
+                src="assets/icons/light.svg"
+                alt=""
+                class="theme-toggle__icon"
+            /></span>
+            <span class="theme-toggle__option"
+              ><img
+                src="assets/icons/dark.svg"
+                alt=""
+                class="theme-toggle__icon"
+            /></span>
+          </button>
+          <nav class="header__menu-nav" aria-label="Menu navigation">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="menu.html" class="header__menu-link"
+                  ><span>Menu</span
+                  ><img
+                    src="assets/icons/coffee-cup.svg"
+                    alt=""
+                    class="header__menu-icon"
+                /></a>
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            type="button"
+            class="header__burger"
+            aria-label="Open menu"
+          ></button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__content">
+              <h1 class="hero__headline">
+                Enjoy premium coffee at our charming cafe
+              </h1>
+              <p class="hero__description">
+                With its inviting atmosphere and delicious coffee options, the
+                Coffee House Resource is a popular destination for coffee lovers
+                and those seeking a warm and inviting space to enjoy their
+                favorite beverage.
+              </p>
+              <a class="hero__menu" href="menu.html">Menu</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="favorites" id="favorites"></section>
+      <section class="about" id="about"></section>
+      <section class="mobile-app" id="mobile-app"></section>
+    </main>
+    <footer class="footer" id="contact-us"></footer>
+  </body>
+</html>
